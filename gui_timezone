@@ -10,7 +10,7 @@ end () {
         }
 while true
 do
-$DIALOG --title " Timezone" --clear\
+$DIALOG --title " Timezone" --clear \
 \
         --inputbox "Please put your desired Continent/Country Name: " 25 59 4>$FILE1 || end
         
