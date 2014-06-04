@@ -13,21 +13,21 @@ Running the program
 
 1.Basic command line
 
-Type: main
-Give input (for example): Europe Sweden
+# Type: main
+# Give input (for example): Europe Sweden
 
 2.GUI with Localization(Language: Bangla)
 
-Type gui_timezone
-Type 1 for Bangla Language, Type 2 for English 
-Type Continent Name
-Type City Name
-Finally, The time and date is displayed in the chosen language
+# Type gui_timezone
+# Type 1 for Bangla Language, Type 2 for English 
+# Type Continent Name
+# Type City Name
+# Finally, The time and date is displayed in the chosen language
 
 3.Network 
 
-Type nc localhost 1234 : sometimes we need to restart the xinetd
-Type Continet and City Name with space in between
-Type gui_timezone_network
-Type Continet and City Name with space in between
-Finally, The corect time and date is displayed by network application
+# Type nc localhost 1234 : sometimes we need to restart the xinetd
+# Type Continet and City Name with space in between
+# Type gui_timezone_network
+# Type Continet and City Name with space in between
+# Finally, The corect time and date is displayed by network application
