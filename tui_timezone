@@ -1,11 +1,14 @@
 #!/bin/sh
 
-dialog --title "Gettting Current Date and Time based on Time zone" --inputbox "Insert Continent(Space)City" 100 100 2> /tmp/tmp1
+DIALOG=${DIALOG=dialog}
 
-
-out=`cat /tmp/tmp1`
-name=($out)
-
-export TZ="${name[0]}"/"${name[1]}"
-
-dialog --title "" --infobox "Current date and time is:\n`date`" 100 100
+$DIALOG --title " Timezone" --clear \
+        --inputbox "Please put your desired Continent/Country Name: " 50 50 2>/tmp/input.$$
+        
+        ab=$(export TZ=`cat /tmp/input.$$`;date)
+        
+        MSG="Time is: $ab \n\nContinue?"
+        
+        $DIALOG --yesno "$MSG" 20 20
+        
+        
