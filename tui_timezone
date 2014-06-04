@@ -9,6 +9,6 @@ $DIALOG --title "Timezone" --clear \
         
         MSG="Time is: $ab \n\nContinue?"
         
-        $DIALOG --yesno "$MSG" 15 20
+        $DIALOG --yesno "$MSG" 30 20
         
         
