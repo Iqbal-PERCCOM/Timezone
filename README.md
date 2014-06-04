@@ -1,6 +1,8 @@
 Timezone
 ========
-Instruction to run the Timezone 
+[There is also test file named current_date_timme using TZselect] 
+
+Instruction to run the Timezone Program 
 
 1. git clone https://www.github.com/Iqbal-PERCCOM/Timezone
 2. If you need to switch user as a root use su -
