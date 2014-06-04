@@ -24,16 +24,10 @@ Running the program
 
 3.GUI with Localization(Language: Bangla)
 
-1. Type gui_timezone
+1. Run gui_timezone_network
 2. Type 1 for Bangla Language, Type 2 for English 
-3. Type Continent Name
+3. Type Continent 
 4. Type City Name
 5. Finally, The time and date is displayed in the chosen language
 
-4.Network 
 
-1. Type nc localhost 1234 : sometimes we need to restart the xinetd; nc is used to coonect the server, here it is the main
-2. Type Continet and City Name with space in between
-3. Type gui_timezone_network
-4. Type Continet and City Name with space in between
-5. Finally, The current time and date is displayed by network application
