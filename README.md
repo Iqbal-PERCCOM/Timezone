@@ -16,6 +16,12 @@ Running the program
 1. Type: main
 2. Give input (for example): Europe Sweden
 
+2.Textual Interface for timezone 
+
+1. Type tui_timezone
+2. Type Continet and City Name with space in between (in dialog box)
+3. Finally time and date are displayed in another dialog box
+
 2.GUI with Localization(Language: Bangla)
 
 1. Type gui_timezone
@@ -30,4 +36,4 @@ Running the program
 2. Type Continet and City Name with space in between
 3. Type gui_timezone_network
 4. Type Continet and City Name with space in between
-5. Finally, The corect time and date is displayed by network application
+5. Finally, The current time and date is displayed by network application
