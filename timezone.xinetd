@@ -3,10 +3,10 @@
 
 service main
 {
-flags = REUSE
-socket_type = stream
-wait = no
-user = nobody
-server = /usr/local/bin/main
-disable = no
+          flags = REUSE
+          socket_type = stream
+          wait = no
+          user = nobody
+          server = /usr/local/bin/main
+          disable = no
 }
