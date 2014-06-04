@@ -1,6 +1,4 @@
 #!/bin/sh
-
-
 export LANG=en.US.UTF-8
 export LANG=bn_BD.UTF-8
 
@@ -10,6 +8,7 @@ language=$(zenity --entry --entry-text="Type" --text="Please Choose language: Ty
 
 if [ $language -eq 1 ]
 then
+
 {
 LANG=bn_BD
 
@@ -17,8 +16,8 @@ continent=$(zenity --entry --entry-text="Type" --text="মহাদেশের 
 city=$(zenity --entry --entry-text="Type" --text="শহরের নাম")
 export TZ="$continent"/"$city"
 date
-output=$(date)
-zenity --info --text="$output"
+result=$(date)
+zenity --info --text="$result"
 }
 
 elif [ $language -eq 2 ]
@@ -30,8 +29,8 @@ LANG=en_US
 cont=$(zenity --entry --entry-text="Type" --text="Enter Continent")
 city=$(zenity --entry --entry-text="Type" --text="Enter City")
 export TZ="$cont"/"$city"
-op=$(date)
-zenity --info --text="$op"
+result1=$(date)
+zenity --info --text="$result1"
 
 }
 fi
