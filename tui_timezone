@@ -2,13 +2,13 @@
 
 DIALOG=${DIALOG=dialog}
 
-$DIALOG --title " Timezone" --clear \
+$DIALOG --title "Timezone" --clear \
         --inputbox "Please put your desired Continent/Country Name: " 50 50 2>/tmp/input.$$
         
         ab=$(export TZ=`cat /tmp/input.$$`;date)
         
         MSG="Time is: $ab \n\nContinue?"
         
-        $DIALOG --yesno "$MSG" 20 20
+        $DIALOG --yesno "$MSG" 15 20
         
         
