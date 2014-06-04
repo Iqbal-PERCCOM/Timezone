@@ -1,6 +1,6 @@
 Timezone
 ========
-[There is also test file named current_date_timme using TZselect] 
+[There is also test file named current_date_timme using tzselect] 
 
 Instruction to run the Timezone Program 
 
