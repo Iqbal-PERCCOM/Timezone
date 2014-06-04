@@ -26,7 +26,7 @@ Running the program
 
 3.Network 
 
-1. Type nc localhost 1234 : sometimes we need to restart the xinetd
+1. Type nc localhost 1234 : sometimes we need to restart the xinetd; nc is used to coonect the server, here it is the main
 2. Type Continet and City Name with space in between
 3. Type gui_timezone_network
 4. Type Continet and City Name with space in between
