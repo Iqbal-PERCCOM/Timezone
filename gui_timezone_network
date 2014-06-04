@@ -1,0 +1,45 @@
+#!/bin/sh
+
+export LANG=en.US.UTF-8
+export LANG=bn_BD.UTF-8
+HOST=localhost
+PORT=1234
+
+FILE1=/tmp/main1
+FILE2=/tmp/main2
+# ERROR=/tmp/main-err
+
+
+main="nc $HOST $PORT"
+LANG=en_US
+
+language=$(zenity --entry --entry-text="Type" --text="Please Choose language: Type 1 for Bangla ;Type 2 for English")
+
+if [ $language -eq 1 ]
+then
+
+{
+LANG=bn_BD
+
+continent=$(zenity --entry --entry-text="Type" --text="মহাদেশের নাম")
+city=$(zenity --entry --entry-text="Type" --text="শহরের নাম")
+export TZ="$continent"/"$city"
+date
+result=$(date)
+zenity --info --text="$result"
+}
+
+elif [ $language -eq 2 ]
+then
+{
+export LANG=en_US.UTF-8
+LANG=en_US
+
+cont=$(zenity --entry --entry-text="Type" --text="Enter Continent")
+city=$(zenity --entry --entry-text="Type" --text="Enter City")
+export TZ="$cont"/"$city"
+result1=$(date)
+zenity --info --text="$result1"
+
+}
+fi
