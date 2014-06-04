@@ -21,8 +21,8 @@ Running the program
 2.Textual Interface for timezone 
 
 1. Type tui_timezone
-2. Type Continet and City Name with space in between (in dialog box)
-3. Finally time and date are displayed in another dialog box
+2. Type Continet and City Name separated by / (e.g Europe/Helsenki) (in input box)
+3. Finally time and date are displayed
 
 3.GUI with Localization(Language: Bangla)
 
