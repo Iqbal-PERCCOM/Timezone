@@ -9,10 +9,10 @@ Instruction to run the Timezone Program
 
 Running the program
 
-1.Basic command line
+1.Basic command line (for practice)
 
-1. Type: main
-2. Give input (for example): Europe Sweden (Separated by space)
+1. Type: main (it works as a services)
+2. Give input 
 3. There is also test file named current_date_timme using tzselect
 
 2.Textual Interface for timezone 
