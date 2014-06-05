@@ -12,7 +12,7 @@ Running the program
 1.Basic command line
 
 1. Type: main
-2. Give input (for example): Europe Sweden
+2. Give input (for example): Europe Sweden (Separated by space)
 3. There is also test file named current_date_timme using tzselect
 
 2.Textual Interface for timezone 
@@ -23,7 +23,7 @@ Running the program
 
 3.GUI with Localization(Language: Bangla)
 
-1. Run gui_timezone_network (sometimes you need permission to run this file, then use chmod)
+1. Run nc localhost 1234, then gui_timezone_network (you can directly run gui_timezone_network, if need permission, use chmod)
 2. Type 1 for Bangla Language, Type 2 for English 
 3. Type Continent 
 4. Type City Name
