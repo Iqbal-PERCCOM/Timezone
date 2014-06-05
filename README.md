@@ -17,13 +17,13 @@ Running the program
 
 2.Textual Interface for timezone 
 
-1. Type tui_timezone
+1. Type tui_timezone (sometimes you need permission to run this file, then use chmod)
 2. Type Continet and City Name separated by / (e.g Europe/Helsenki) (in input box)
 3. Finally time and date are displayed
 
 3.GUI with Localization(Language: Bangla)
 
-1. Run gui_timezone_network
+1. Run gui_timezone_network (sometimes you need permission to run this file, then use chmod)
 2. Type 1 for Bangla Language, Type 2 for English 
 3. Type Continent 
 4. Type City Name
