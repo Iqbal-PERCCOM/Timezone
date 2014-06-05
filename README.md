@@ -1,15 +1,11 @@
 Timezone
 ========
-[There is also test file named current_date_timme using tzselect] 
 
 Instruction to run the Timezone Program 
 
 1. git clone https://www.github.com/Iqbal-PERCCOM/Timezone
 2. If you need to switch user as a root use su -
-3. make install
-4. make
-
-Makefile has command to install xinetd // In my machine I have some problem to run this server daemon 
+3. Run the Makefile; Makefile has command to install xinetd // In my machine I have some problem to run this server daemon 
 
 Running the program
 
@@ -17,6 +13,7 @@ Running the program
 
 1. Type: main
 2. Give input (for example): Europe Sweden
+3. There is also test file named current_date_timme using tzselect
 
 2.Textual Interface for timezone 
 
