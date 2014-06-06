@@ -13,8 +13,13 @@ FILE2=/tmp/main2
 
 main="nc $HOST $PORT"
 LANG=en_US
+LANG=bn_BD
 
-language=$(zenity --entry --entry-text="Type" --text="Please Choose language: Type 1 for Bangla ;Type 2 for English")
+zenity --info --text="This program shows timezone \n এই প্রোগ্রামটি টাইমজোন দেখায়"
+
+language=$(zenity --entry --entry-text="Type" --text="Choose your language: Type 1 for Bangla ;Type 2 for English \n বাংলা -1 টাইপ করুন -  ইংরেজি- 2 টাইপ করুন")
+
+#language=$(zenity --entry --entry-text="Type" --text="Please Choose language: Type 1 for Bangla ;Type 2 for English")
 
 if [ $language -eq 1 ]
 then
