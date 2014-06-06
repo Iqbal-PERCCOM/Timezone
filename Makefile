@@ -4,3 +4,10 @@ install:
 				grep -q "`cat main.services`" /etc/services || cat main.services >> /etc/services
 				install timezone.xinetd /etc/xinetd.d/main
 				/etc/init.d/xinetd restart
+
+
+
+
+
+
+
