@@ -17,7 +17,7 @@ LANG=bn_BD
 
 zenity --info --text="This program shows timezone \n এই প্রোগ্রামটি টাইমজোন দেখায়"
 
-language=$(zenity --entry --entry-text="Type" --text="Choose your language: Type 1 for Bangla ;Type 2 for English \n বাংলা -1 টাইপ করুন -  ইংরেজি- 2 টাইপ করুন")
+language=$(zenity --entry --entry-text="Type" --text="Choose your language: Type 1 for Bangla ;Type 2 for English \n ​দয়া​ করে,​বাংলার​ জন্য ১ টাইপ করুন; ইংলিশ​র জন্য ২ টাইপ করুন")
 
 #language=$(zenity --entry --entry-text="Type" --text="Please Choose language: Type 1 for Bangla ;Type 2 for English")
 
